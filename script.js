@@ -1,4 +1,4 @@
-fetch("http://127.0.0.1:1235/users")
+fetch("https://echos0909.herokuapp.com/users")
 .then(response => response.json())
 .then(data => {
     console.table(data)
@@ -27,7 +27,7 @@ function postData() {
 	
 	data = {Books_Name: name, Writer: writer, Edition: Edition, Price:city};
 	
-	fetch("http://127.0.0.1:1235/users", {
+	fetch("https://echos0909.herokuapp.com/users", {
 		method: "POST",
 		headers: {
 		  'Accept': 'application/json',
