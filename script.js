@@ -38,6 +38,6 @@ function postData() {
 	.then((response) => response.json())
 	.then((data) => { 
 		console.log(data); 
-		window.location.href = "index.html";
+		window.location.href = "listing.html";
 	})
 }	
