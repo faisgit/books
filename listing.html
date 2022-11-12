@@ -78,15 +78,29 @@
         nav ul li:hover {
             text-decoration: underline;
         }
-        footer{
-            border-top: 0.5px solid dimgray;
-            text-align: center;
-        }
-@media  only screen and (max-width: 540px) {
-    body{
-        background-color: black;
-    }
-}
+        
+         @media only screen and  (max-width:740px) {
+            nav{
+                flex-direction: column;
+            }
+            .ml-40{
+                margin-left: 0px;
+            }
+            .mr-28{
+                margin-right: 0px ;
+                margin-left: 28px;
+            }
+            ul{
+                flex-direction: column;
+                margin-top: 34px;
+            }
+            li{
+                margin-bottom: 10px;
+            }
+            .table{
+                margin: 5.5rem auto;
+            }
+       }
       
     </style>
     <title>Document</title>
@@ -123,7 +137,6 @@
             </tr>
         </tbody>
     </table>
-    <footer>&#169; Book Cart 2021-22</footer>
 </body>
 
 <script src="script.js"></script>
